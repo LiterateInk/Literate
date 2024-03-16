@@ -1,0 +1,33 @@
+{
+  "name": "@literate/mobile",
+  "description": "An unified school workspace for literally every mobile users.",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:android": "node ./scripts/dev-android.js"
+  },
+  "dependencies": {
+    "@awesome-cordova-plugins/core": "^6.6.0",
+    "@awesome-cordova-plugins/in-app-browser": "^6.6.0",
+    "@capacitor/core": "^5.7.2",
+    "@capacitor/splash-screen": "^5.0.7",
+    "@solid-primitives/resize-observer": "^2.0.25",
+    "@solidjs/router": "^0.13.0",
+    "@unocss/reset": "^0.58.5",
+    "cordova-plugin-inappbrowser": "^6.0.0",
+    "solid-js": "^1.8.15"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^5.7.2",
+    "@capacitor/cli": "latest",
+    "@types/node": "^20.11.28",
+    "chalk": "^5.3.0",
+    "internal-ip": "^8.0.0",
+    "typescript": "^5.4.2",
+    "unocss": "^0.58.5",
+    "vite": "^5.1.6",
+    "vite-plugin-solid": "^2.10.1"
+  },
+  "author": "LiterateInk (https://github.com/LiterateInk)",
+  "license": "GPL-3.0"
+}
