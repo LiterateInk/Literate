@@ -11,6 +11,7 @@
     "@awesome-cordova-plugins/in-app-browser": "^6.6.0",
     "@capacitor/core": "^5.7.2",
     "@capacitor/splash-screen": "^5.0.7",
+    "@fontsource/lexend": "^5.0.19",
     "@solid-primitives/resize-observer": "^2.0.25",
     "@solidjs/router": "^0.13.0",
     "@unocss/reset": "^0.58.5",

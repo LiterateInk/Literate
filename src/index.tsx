@@ -1,4 +1,5 @@
 import 'virtual:uno.css';
+import "@fontsource/lexend/400.css";
 import "@unocss/reset/tailwind.css";
 
 /* @refresh reload */
@@ -14,4 +15,4 @@ render(() => (
     <Route path="/" component={Overview} />
     <Route path="/grades" component={Grades} />
   </Router>
-), document.getElementById("root") as HTMLElement);
+), document.getElementById("root")!);
