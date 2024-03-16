@@ -4,7 +4,6 @@ import { internalIpV4 } from 'internal-ip';
 import path from "node:path";
 import c from "chalk";
 
-import { findLocalIP } from "./utils/network.js";
 import { warn, done, header } from "./utils/logger.js";
 import { makeViteServer, removePreviousBuild } from "./utils/vite.js";
 import { appendLiveReloadProperties, readCurrentConfiguration, writeConfiguration } from "./utils/capacitor.js";
