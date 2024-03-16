@@ -25,8 +25,7 @@ export const adbInstallApk = (adbPath, apkPath) => {
 
 export const adbRemoveReversePort = (adbPath, port) => {
   try {
-    execSync(`${adbPath} reverse --remove tcp:${port}`);
-    done("Removed reversed port", port, "since it was already in use");
+    execSync(`${adbPath} reverse --remove tcp:${port}`, { stdio: "ignore" });
   } catch { /** No-op. */ }
 };
 
