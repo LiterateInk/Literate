@@ -1,10 +1,9 @@
 import { type Component } from "solid-js";
+import { Navigate } from "@solidjs/router";
 
 const Page: Component = () => {
   return (
-    <div>
-      <h1>Notes</h1>
-    </div>
+    <Navigate href="/first-time" />
   );
 };
 

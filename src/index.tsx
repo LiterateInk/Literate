@@ -1,18 +1,11 @@
 import 'virtual:uno.css';
 import "@fontsource/lexend/400.css";
+import "@fontsource/lexend/500.css";
+import "@fontsource/lexend/600.css";
 import "@unocss/reset/tailwind.css";
 
 /* @refresh reload */
 import { render } from 'solid-js/web';
-import { Router, Route } from "@solidjs/router";
+import AppRouter from './router';
 
-import GlobalWrapper from "./layouts/global-wrapper";
-import Overview from "./pages/index";
-import Grades from "./pages/grades";
-
-render(() => (
-  <Router root={GlobalWrapper}>
-    <Route path="/" component={Overview} />
-    <Route path="/grades" component={Grades} />
-  </Router>
-), document.getElementById("root")!);
+render(() => <AppRouter />, document.getElementById("root")!);
