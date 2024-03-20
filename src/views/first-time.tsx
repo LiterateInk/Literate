@@ -1,7 +1,7 @@
 import { type Component } from "solid-js";
 
-import PageContainer from "../layouts/PageContainer";
-import RandomizedLogoPatterns from "../components/misc/RandomizedLogoPatterns";
+import PageContainer from "~/components/layouts/PageContainer";
+import RandomizedLogoPatterns from "~/components/misc/RandomizedLogoPatterns";
 
 /**
  * Shown when no workspace is found in the local database.
@@ -18,7 +18,7 @@ const Page: Component = () => {
     <PageContainer class="pt-8 bg-white"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0, transition: { duration: 0.35 }}}
-      exit={{ x: "-100%", transition: { duration: 0.2 }}}
+      exit={{ x: "-100%" }}
     >
       <header class="flex flex-col gap-2 mb-6">
         <RandomizedLogoPatterns />

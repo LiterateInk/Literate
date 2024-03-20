@@ -21,7 +21,7 @@ const PageContainer: FlowComponent<PageProps> = (props) => {
       exit={props.exit ?? { opacity: 0, transition: { duration: 0 }}}
       
       // Always at z-index 0 and full page fixed.
-      class={`z-0 fixed inset-0 ${props.class || ""}`}
+      class={`bg-white absolute inset-0 ${props.class || ""}`}
     />
   )
 };
